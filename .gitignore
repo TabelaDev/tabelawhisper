@@ -1,0 +1,14 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Runtime artifacts (also live in /tmp, just in case)
+whisper-dictate*.json
+whisper-dictate*.wav
+whisper-dictate*.log
+whisper-dictate*.pids

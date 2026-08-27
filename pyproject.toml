@@ -1,0 +1,57 @@
+[project]
+name = "tabela-whisper"
+version = "1.0.0"
+description = "Voice dictation for DankMaterialShell: record, transcribe locally with faster-whisper, copy to clipboard, with a dank-bar widget and a silent completion notification."
+requires-python = ">=3.12"
+dependencies = ["faster-whisper"]
+
+[dependency-groups]
+dev = [
+    "basedpyright",
+    "ruff",
+    "ty",
+    "typos",
+    "vulture",
+    "pytest",
+    "pytest-cov",
+    "hypothesis",
+    "pip-audit",
+]
+
+[tool.uv]
+package = false
+
+[tool.ruff]
+target-version = "py312"
+line-length = 100
+src = ["bin", "tests"]
+
+[tool.ruff.lint]
+select = [
+    "E",   # pycodestyle errors
+    "F",   # pyflakes
+    "I",   # import sorting
+    "B",   # bugbear
+    "UP",  # pyupgrade
+    "SIM", # simplification
+    "C4",  # comprehensions
+    "PIE", # misc improvements
+    "PTH", # pathlib
+    "RET", # return-value issues
+    "RUF", # Ruff-specific rules
+]
+ignore = ["E501"]
+
+[tool.basedpyright]
+typeCheckingMode = "standard"
+extraPaths = ["bin"]
+
+[tool.ty]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["bin"]
+addopts = "-q"
+
+[tool.coverage.run]
+source = ["bin"]
