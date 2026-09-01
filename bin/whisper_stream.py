@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Streaming transcriber for tabela-whisper (live_mode = streaming).
+"""Streaming transcriber for tabelawhisper (live_mode = streaming).
 
 Reads raw PCM16 mono 16 kHz from stdin (piped from ``pw-record``), keeps a
 rolling buffer, and re-transcribes it every couple of seconds so the dms

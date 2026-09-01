@@ -1,4 +1,4 @@
-"""Shared helpers for tabela-whisper: config, model, and the on-disk state file.
+"""Shared helpers for tabelawhisper: config, model, and the on-disk state file.
 
 The state file at ``/tmp/whisper-dictate.json`` is the single source of truth
 shared between the shell toggle (whisper_dictate), the streaming transcriber

@@ -61,8 +61,8 @@ texto transcrito.
 ## Instalação
 
 ```bash
-git clone https://github.com/TabelaDev/tabela-whisper
-cd tabela-whisper
+git clone https://github.com/TabelaDev/tabelawhisper
+cd tabelawhisper
 ./install.sh
 ```
 

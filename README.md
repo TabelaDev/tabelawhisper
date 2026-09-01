@@ -58,8 +58,8 @@ desktop notification (app name `Tabela Whisper`) shows the transcript.
 ## Install
 
 ```bash
-git clone https://github.com/TabelaDev/tabela-whisper
-cd tabela-whisper
+git clone https://github.com/TabelaDev/tabelawhisper
+cd tabelawhisper
 ./install.sh
 ```
 
