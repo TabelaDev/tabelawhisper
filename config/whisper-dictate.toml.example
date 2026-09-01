@@ -1,4 +1,4 @@
-# tabela-whisper configuration
+# tabelawhisper configuration
 # Copy to ~/.config/tabela/whisper-dictate/config.toml and edit.
 
 model = "small"           # base | small | medium | large-v3 (bigger = more accurate, slower)

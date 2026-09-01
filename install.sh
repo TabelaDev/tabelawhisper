@@ -6,7 +6,7 @@ NIRI_SCRIPTS="$HOME/.config/niri/scripts"
 DMS_PLUGINS="$HOME/.config/DankMaterialShell/plugins"
 CFG_DIR="$HOME/.config/tabela/whisper-dictate"
 
-echo "==> tabela-whisper installer"
+echo "==> tabelawhisper installer"
 
 echo "==> syncing uv environment (downloads torch on first run, may take a while)"
 ( cd "$REPO" && uv sync --all-groups )
