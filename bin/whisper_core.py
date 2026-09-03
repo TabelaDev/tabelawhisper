@@ -1,4 +1,4 @@
-"""Shared helpers for tabela-whisper: config, model, and the on-disk state file.
+"""Shared helpers for tabelhawhisper: config, model, and the on-disk state file.
 
 The state file at ``/tmp/whisper-dictate.json`` is the single source of truth
 shared between the shell toggle (whisper_dictate), the streaming transcriber
@@ -16,7 +16,7 @@ from pathlib import Path
 
 STATE_PATH = Path("/tmp/whisper-dictate.json")
 CONFIG_PATH = Path(
-    os.environ.get("WHISPER_DICTATE_CONFIG", "~/.config/tabela/whisper-dictate/config.toml")
+    os.environ.get("WHISPER_DICTATE_CONFIG", "~/.config/tabelha/whisper-dictate/config.toml")
 ).expanduser()
 
 DEFAULTS = {

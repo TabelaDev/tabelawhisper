@@ -10,12 +10,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Voice dictation toggle (niri keybind `Mod+E`) that records via `pw-record` and
   transcribes locally with faster-whisper, copying the result to the clipboard.
-- DankMaterialShell bar widget `Tabela Whisper` that appears only while
+- DankMaterialShell bar widget `TAbelha Whisper` that appears only while
   recording/transcribing (elapsed timer + `Transcrevendo…`), and collapses out
   of the bar when idle so it never reserves space.
-- Silent, lowest-tier desktop notification (app `Tabela Whisper`) with the
+- Silent, lowest-tier desktop notification (app `TAbelha Whisper`) with the
   transcript on completion.
-- `config.toml` support (`~/.config/tabela/whisper-dictate/config.toml`) with
+- `config.toml` support (`~/.config/tabelha/whisper-dictate/config.toml`) with
   model, language, device, beam size, multilingual, and live modes
   (`off` / `partial` / `streaming`).
 - Orchestrator renames itself to `twhisper` (via `prctl`) for easy process

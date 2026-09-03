@@ -1,7 +1,7 @@
 {
     "id": "whisper-dictate",
-    "name": "Tabela Whisper",
-    "description": "Shows recording status and elapsed time while dictating with Tabela Whisper.",
+    "name": "TAbelha Whisper",
+    "description": "Shows recording status and elapsed time while dictating with TAbelha Whisper.",
     "version": "1.0.0",
     "author": "Ian Soares",
     "icon": "mic",

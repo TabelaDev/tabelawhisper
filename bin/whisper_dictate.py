@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""tabela-whisper orchestrator.
+"""tabelhawhisper orchestrator.
 
 Run by the niri keybind (Mod+E). ``toggle`` starts or stops a recording; the
 resulting transcript is written to the shared state file and copied to the
@@ -161,7 +161,7 @@ def _notify(text: str) -> None:
                 "-h",
                 "boolean:suppress-sound:true",
                 "-a",
-                "Tabela Whisper",
+                "TAbelha Whisper",
                 "Transcrição",
                 text[:500],
             ],

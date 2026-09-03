@@ -1,6 +1,6 @@
 <div align="center">
 
-# Tabela Whisper
+# TAbelha Whisper
 
 **English** · [Português](README.pt-BR.md)
 
@@ -15,7 +15,7 @@
 
 ---
 
-Voice dictation for [DankMaterialShell](https://github.com/TabelaDev/dankmaterialshell)
+Voice dictation for [DankMaterialShell](https://github.com/TAbelhaDev/dankmaterialshell)
 on niri (Wayland): press a key, speak, and the transcribed text lands on your
 clipboard. Feedback lives in the **dank bar** as a small widget that appears
 only while you are dictating, and a **silent, low-priority notification** shows
@@ -36,7 +36,7 @@ Everything runs locally; nothing is sent to the network.
 
 ## The dank bar widget
 
-The `Tabela Whisper` widget (a dms plugin) reads the shared state file and
+The `TAbelha Whisper` widget (a dms plugin) reads the shared state file and
 shows itself only while active:
 
 - **Recording**: a red mic icon plus an `mm:ss` elapsed timer.
@@ -44,7 +44,7 @@ shows itself only while active:
 - **Idle / done**: hidden. The bar slot collapses, so no space is reserved.
 
 When transcription finishes, the widget hides and a **silent, lowest-tier**
-desktop notification (app name `Tabela Whisper`) shows the transcript.
+desktop notification (app name `TAbelha Whisper`) shows the transcript.
 
 ## Requirements
 
@@ -58,8 +58,8 @@ desktop notification (app name `Tabela Whisper`) shows the transcript.
 ## Install
 
 ```bash
-git clone https://github.com/TabelaDev/tabela-whisper
-cd tabela-whisper
+git clone https://github.com/TAbelhaDev/tabelhawhisper
+cd tabelhawhisper
 ./install.sh
 ```
 
@@ -68,7 +68,7 @@ cd tabela-whisper
 - sync the `uv` environment (downloads torch + faster-whisper on first run);
 - drop a keybind helper at `~/.config/niri/scripts/whisper-dictate.sh`;
 - symlink the dms plugin into `~/.config/DankMaterialShell/plugins/whisper-dictate`;
-- create `~/.config/tabela/whisper-dictate/config.toml` from the example if absent.
+- create `~/.config/tabelha/whisper-dictate/config.toml` from the example if absent.
 
 Then:
 
@@ -76,13 +76,13 @@ Then:
    ```kdl
    bind Mod+E { spawn "~/.config/niri/scripts/whisper-dictate.sh"; }
    ```
-2. Reload dms (restart quickshell) and **enable the `Tabela Whisper` widget**
+2. Reload dms (restart quickshell) and **enable the `TAbelha Whisper` widget**
    in the bar settings.
 3. Press `Mod+E` and start talking.
 
 ## Configuration
 
-Config lives at `~/.config/tabela/whisper-dictate/config.toml`. See
+Config lives at `~/.config/tabelha/whisper-dictate/config.toml`. See
 [`config/whisper-dictate.toml.example`](config/whisper-dictate.toml.example)
 for all options. Highlights:
 

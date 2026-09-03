@@ -6,7 +6,7 @@ NIRI_SCRIPTS="$HOME/.config/niri/scripts"
 DMS_PLUGINS="$HOME/.config/DankMaterialShell/plugins"
 CFG_DIR="$HOME/.config/tabela/whisper-dictate"
 
-echo "==> tabela-whisper installer"
+echo "==> tabelhawhisper installer"
 
 echo "==> syncing uv environment (downloads torch on first run, may take a while)"
 ( cd "$REPO" && uv sync --all-groups )
@@ -40,4 +40,4 @@ fi
 
 echo
 echo "Pronto. A tecla Mod+E (já configurada no niri) grava/transcreve."
-echo "Recarregue o dms (restart quickshell) e habilite o widget 'Tabela Whisper' nas configs."
+echo "Recarregue o dms (restart quickshell) e habilite o widget 'TAbelha Whisper' nas configs."
